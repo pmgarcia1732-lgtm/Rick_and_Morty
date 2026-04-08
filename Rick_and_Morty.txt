@@ -1,0 +1,5 @@
+('Prueba de Rick and Morty', () => {
+  it('Debería cargar la página principal', () => {
+    cy.visit('https://rickandmortyapi.com/')
+  })
+})
